@@ -2835,6 +2835,7 @@ Post-code,Gemeente,Deelgemeente,Provincie
 9700,Oudenaarde,Welden,Oost-Vlaanderen
 9750,Kruisem,Huise,Oost-Vlaanderen
 9750,Kruisem,Ouwegem,Oost-Vlaanderen
+9770,Kruisem,,Oost-Vlaanderen
 9771,Kruisem,Nokere,Oost-Vlaanderen
 9772,Kruisem,Wannegem-Lede,Oost-Vlaanderen
 9790,Wortegem-Petegem,Elsegem,Oost-Vlaanderen
@@ -2883,11 +2884,13 @@ Post-code,Gemeente,Deelgemeente,Provincie
 9910,Aalter,Knesselare,Oost-Vlaanderen
 9910,Aalter,Ursel,Oost-Vlaanderen
 9921,Lievegem,Vinderhoute,Oost-Vlaanderen
+9930,Lievegem,,Oost-Vlaanderen
 9931,Lievegem,Oostwinkel,Oost-Vlaanderen
 9932,Lievegem,Ronsele,Oost-Vlaanderen
 9940,Evergem,Ertvelde,Oost-Vlaanderen
 9940,Evergem,Kluizen,Oost-Vlaanderen
 9940,Evergem,Sleidinge,Oost-Vlaanderen
+9950,Lievegem,,Oost-Vlaanderen
 9961,Assenede,Boekhoute,Oost-Vlaanderen
 9968,Assenede,Bassevelde,Oost-Vlaanderen
 9968,Assenede,Oosteeklo,Oost-Vlaanderen
