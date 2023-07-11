@@ -21,14 +21,20 @@ For required packages you can use 'pip install -m requirements.txt' in your term
 
 There's nothing very complex, so you can do everything after you've installed the requirements file from within the notebook. 
 Simply remember to run the code blocks in descending order, so you get the correct packages initialized.
+
 ## Timeline
 
-This was completed over the course of 5 (work)days, from the 5th of Juli to the 11th of Juli.
+This was completed over the course of 5 (work)days, from the 5th of Juli to the 11th of Juli.µ
+
+![Data plots](./assets/output.png)
+
 ## Future Improvements/Additions
 
 - More accuracy with Data Correlations by having a bigger dataset.
 - Can try for wider choice of plots to use (map locations, area charts, ...)
 - Better usage of color to highlight specific values
+
+
 ## Related
 
 Here are some related projects:
