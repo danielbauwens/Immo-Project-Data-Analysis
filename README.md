@@ -8,6 +8,8 @@ A 5 day study project to understand Plotting and Data Visualization.
 
 This was made as the second part of a four part study project at Becode Ghent, where the aim was to get to know and familiarize ourselves with plotting, data visualizations and making correlatinos between multiple Data entries.
 
+The two csv files are used to compare before and after cleanup from our original dataset.
+
 First part of the project: [our Data Scraper.]('https://github.com/danielbauwens/challenge-collecting-data')
 
 ## Installation (and Requirements)
