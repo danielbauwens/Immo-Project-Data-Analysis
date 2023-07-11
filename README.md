@@ -10,7 +10,7 @@ This was made as the second part of a four part study project at Becode Ghent, w
 
 The two csv files are used to compare before and after cleanup from our original dataset.
 
-First part of the project: [our Data Scraper.]('https://github.com/danielbauwens/challenge-collecting-data')
+First part of the project: [our Data Scraper.](https://github.com/danielbauwens/challenge-collecting-data)
 
 ## Installation (and Requirements)
 
@@ -41,8 +41,8 @@ This was completed over the course of 5 (work)days, from the 5th of Juli to the 
 
 Here are some related projects:
 
-- [Zipcode/City Data scraper I made for this project](https://github.com/matiassingers/awesome-readme)
-- [First part of this project: Dataset used here.](https://github.com/matiassingers/awesome-readme)
+- [Zipcode/City Data scraper I made for this project](https://github.com/danielbauwens/Data-Scraper-Belgian-Locations)
+- [First part of this project: Dataset used here.](https://github.com/danielbauwens/challenge-collecting-data)
 
 
 ## About me
