@@ -2,7 +2,7 @@
 
 A 5 day study project to understand Plotting and Data Visualization.
 
-![Data!](./assets/image.png)
+![Data!](./assets/output.png)
 
 ## About
 
@@ -28,7 +28,7 @@ Simply remember to run the code blocks in descending order, so you get the corre
 
 This was completed over the course of 5 (work)days, from the 5th of Juli to the 11th of Juli.µ
 
-![Data plots](./assets/output.png)
+![Data plots](./assets/image.png)
 
 ## Future Improvements/Additions
 
