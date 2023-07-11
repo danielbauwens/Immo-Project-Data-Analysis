@@ -26,9 +26,7 @@ Simply remember to run the code blocks in descending order, so you get the corre
 
 ## Timeline
 
-This was completed over the course of 5 (work)days, from the 5th of Juli to the 11th of Juli.µ
-
-![Data plots](./assets/image.png)
+This was completed over the course of 5 (work)days, from the 5th of Juli to the 11th of Juli.
 
 ## Future Improvements/Additions
 
@@ -36,10 +34,11 @@ This was completed over the course of 5 (work)days, from the 5th of Juli to the 
 - Can try for wider choice of plots to use (map locations, area charts, ...)
 - Better usage of color to highlight specific values
 
+![Data plots](./assets/image.png)
 
 ## Related
 
-Here are some related projects:
+Here are some related projects by me:
 
 - [Zipcode/City Data scraper I made for this project](https://github.com/danielbauwens/Data-Scraper-Belgian-Locations)
 - [First part of this project: Dataset used here.](https://github.com/danielbauwens/challenge-collecting-data)
