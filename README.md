@@ -2,7 +2,7 @@
 
 A 5 day study project to understand Plotting and Data Visualization.
 
-![Data!](./assets/outpt.png)
+![Data!](./assets/image.png)
 
 ## About
 
