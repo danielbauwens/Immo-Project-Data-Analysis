@@ -2,7 +2,7 @@
 
 A 5 day study project to understand Plotting and Data Visualization.
 
-![Data!](./assets/output.png)
+![Data!](./output/output.png)
 
 ## About
 
@@ -34,7 +34,7 @@ This was completed over the course of 5 (work)days, from the 5th of Juli to the 
 - Can try for wider choice of plots to use (map locations, area charts, ...)
 - Better usage of color to highlight specific values
 
-![Data plots](./assets/image.png)
+![Data plots](./output/image.png)
 
 ## Related
 
