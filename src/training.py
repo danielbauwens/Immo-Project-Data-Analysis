@@ -3,7 +3,9 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 
 
-def model(df, reg, np):
+def model(df, reg):
+    '''Holds the code to train and test our cleaned dataset on.'''
+    
     # Defining 'X' and 'y' variables from our dataframe using purely features that contain numerical data.
     X = df.drop(['price'], axis=1).to_numpy()
     y = df['price'].to_numpy()
