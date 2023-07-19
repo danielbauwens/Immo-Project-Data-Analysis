@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 
 def model(df, reg):
-    '''Holds the code to train and test our cleaned dataset on.'''
+    '''Handles the code to train and test our cleaned dataset on.'''
 
 
     # Defining 'X' and 'y' variables from our dataframe using purely features that contain numerical data.
@@ -14,7 +14,7 @@ def model(df, reg):
     y = y.reshape(-1, 1)
 
     # Setting up 'train_test_split' to get standardized training/testing sets.
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2) # Random state can be added to get the same results every time.
 
     # Training our model.
     reg.fit(X_train, y_train)

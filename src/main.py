@@ -12,5 +12,5 @@ df = cleaning(dataframe)
 # Instantiating LinearRegression as 'reg'.
 reg = LinearRegression()
 
-# Calling our training/testing model with our dataframe and 
+# Calling our training/testing model with our dataframe and LinearRegression variable.
 model(df, reg)
