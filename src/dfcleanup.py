@@ -3,7 +3,7 @@ import numpy as np
 
 def cleaning(df):
     '''Holds the code to clean and pre-process our scraped data before training our ML model on it.'''
-    
+
     # Filling NaN values with 0.
     df['landplot'].fillna(0, inplace=True)
     df['facades'].fillna(0, inplace=True)
@@ -20,3 +20,4 @@ def cleaning(df):
 
     # Because 'get_dummies()' creates boolean values, we re-define our dataframe to be integers only.
     df = df.astype(int)
+    return df
