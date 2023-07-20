@@ -4,7 +4,7 @@ A multi-week project combining our skills with plotting, analyzing and regressio
 
 ## About
 
-This repository includes work done over 2 different projects that will be concluded with a final price predictor project (yet to be added).
+This repository includes work done over 2 different projects that will be concluded with a final price predictor project (yet to be added). It consists of Data processing and machine learning with said Data to make target prediction.
 
 ### Data Scraper (Part One)
 ![CSV](./output/csvfile.png)
@@ -23,13 +23,13 @@ This was made as the third part of the study project. The main goal is to unders
 ### Data Prediction (Part Four/Conclusion)
 To be completed.
 
-## Installation (and Requirements)
+## Installation, Requirements and Usage
 
 ![Python Version](https://img.shields.io/badge/Python-3.xx-orange) ![Requirements](https://img.shields.io/badge/Easy-For_You-gr)
 
-*The two notebooks include the initial graphing results from part one, and the pipeline used to get the scores from LinearRegression, XGBoost, DecisionTree and RandomForest models. The SRC folder only uses the LinearRegressor, which appears to be the weakest in predicting the actual target value.*
+*The two notebooks include the initial graphing results from part one, and the pipeline used to get the scores from LinearRegression, XGBoost, DecisionTree and RandomForest models. The SRC folder's 'main.py' displays all of the above regressors' scores when run.*
 
-For required packages you can use 'pip install -m requirements.txt' in your terminal to get everything.
+For required packages you can use 'pip install -m requirements.txt' in your terminal to get all the required packages.
 
 Run the 'main.py' file with the correctly processed dataset (variable names that match those included in the original 'merged_data.csv' file). Put your dataset in the '/data' directory and link to it with the correct name in the 'dataframe' variable.
 
@@ -44,19 +44,19 @@ Run the 'main.py' file with the correctly processed dataset (variable names that
 ## Future Improvements/Additions
 
 ### Data Analysis Improvements:
-- More accuracy with Data Correlations by having a bigger dataset.
-- Can try for wider choice of plots to use (map locations, area charts, ...)
+- Improve correlation accuracy by using a larger dataset.
+- Try for different plots to use (map locations, area charts, ...)
 - Better usage of color to highlight specific values
 
 ### Data Modelling Improvements:
-- Explore different regression models.
-- More Parameter Tuning.
-- Bigger datasets.
+- Explore different regression models to improve score.
+- More (Hyper)Parameter Tuning.
+- Larger dataset = Better training.
 - Cleaner datasets/more pre-processing.
 
 ## Related
 
-Here are some related projects by me:
+Here are related projects, made by me:
 
 - [Zipcode/City Data scraper I made for this project](https://github.com/danielbauwens/Data-Scraper-Belgian-Locations)
 - [First part of this project: I'm using the dataset taken from here.](https://github.com/danielbauwens/challenge-collecting-data)
