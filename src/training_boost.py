@@ -1,5 +1,6 @@
 def model_boost(df, xg, X_train, X_test, y_train, y_test):
-    '''Handles the code to train with a Linear Regression, and test our cleaned dataset on.'''
+    '''Handles the code to train with XGBoost, and test our cleaned dataset on.
+    '''
     
     # Attempt at using XGBoost
 
