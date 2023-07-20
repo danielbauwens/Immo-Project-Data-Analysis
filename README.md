@@ -2,28 +2,28 @@
 
 A multi-week project combining our skills with plotting, analyzing and regression models.
 
-## About
+## About the project
 
 This repository includes work done over 2 different projects that will be concluded with a final price predictor project (yet to be added). It consists of Data processing and machine learning with said Data to make target prediction.
 
-### Data Scraper (Part One)
+### 1️⃣ Data Scraper (Part One) 
 ![CSV](./output/csvfile.png)
 Pilot project: [our Data Scraper.](https://github.com/danielbauwens/challenge-collecting-data)
 The very first project, which can be found in its own repository. 
 
-### Data Analysis (Part Two)
+### 2️⃣ Data Analysis (Part Two) 
 ![Data!](./output/output.png)
 
 This was made as the second part of a four part study project, where the aim was to get to know and familiarize ourselves with plotting, data visualizations and making correlatinos between multiple Data entries.
 
-### Data Modelling (Part Three)
+### 3️⃣ Data Modelling (Part Three) 
 ![Score](./output/training.png)
 This was made as the third part of the study project. The main goal is to understand how to use our datasets with regression machine learning models to predict accurate target values(whatever that may be) based on the inputted features. All the while making sure not to overfit the model to the data at hand.
 
-### Data Prediction (Part Four/Conclusion)
+### 4️⃣ Data Prediction (Part Four/Conclusion) 
 To be completed.
 
-## Installation, Requirements and Usage
+## Installation, Requirements and Usage 🛄
 
 ![Python Version](https://img.shields.io/badge/Python-3.xx-orange) ![Requirements](https://img.shields.io/badge/Easy-For_You-gr)
 
@@ -35,13 +35,15 @@ Run the 'main.py' file with the correctly processed dataset (variable names that
 
 ![Dataframe](./output/dataframe.png)
 
-## Timeline 
+To run the file, navigate to the /SRC directory in your terminal and type 'python3 main.py' to start and run the program.
+
+## Timeline 🕙
 
 **Part One(*Data Analysis*)** was completed over the course of 5 (work)days, from the 5th of Juli to the 11th of Juli.
 
 **Part Two(*Data Modelling*)** was completed over the course of 4 days, from the 17th of Juli to the 20th of Juli.
 
-## Future Improvements/Additions
+## Future Improvements/Additions 🔜
 
 ### Data Analysis Improvements:
 - Improve correlation accuracy by using a larger dataset.
@@ -54,7 +56,7 @@ Run the 'main.py' file with the correctly processed dataset (variable names that
 - Larger dataset = Better training.
 - Cleaner datasets/more pre-processing.
 
-## Related
+## Related 🛃
 
 Here are related projects, made by me:
 
@@ -62,7 +64,7 @@ Here are related projects, made by me:
 - [First part of this project: I'm using the dataset taken from here.](https://github.com/danielbauwens/challenge-collecting-data)
 
 
-## About me
+## About me 🛂
 
 You can find more of my work here;
 
