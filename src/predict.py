@@ -7,7 +7,7 @@ def model_linear(df, dfpredict):
     
     # Trying to load a saved model.
     try:
-        reg = joblib.load('../output/reg.pkl')
+        reg = joblib.load('./output/reg.pkl')
 
     # If no model has been saved, below gets executed.
     except:
@@ -27,7 +27,7 @@ def model_linear(df, dfpredict):
         reg.fit(X_train, y_train)
 
         # Saving the fit data so it can be re-used.
-        joblib.dump(reg, '../output/reg.pkl')
+        joblib.dump(reg, './output/reg.pkl')
 
     # Displaying score of Training variables.
     #print("Linear Training score:", reg.score(X_train, y_train)) 
