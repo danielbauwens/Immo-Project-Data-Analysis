@@ -10,7 +10,7 @@ app = FastAPI()
 @app.post("/predict/")
 def prediction(predict: dict = Body()):
     # Both the dataset and prediction values are pre-processed together (if necessary).
-    df = pd.read_csv('/data/merged_data.csv')
+    df = pd.read_csv('./data/merged_data.csv')
     df = cleanup(df, predict)
     dfpredict = df.tail(1)
     dfpredict = dfpredict.drop('price', axis=1)
