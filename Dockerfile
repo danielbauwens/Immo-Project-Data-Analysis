@@ -1,7 +1,13 @@
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 RUN mkdir /app
-RUN mkdir /app/code
-COPY src/ /app/code/
+
 WORKDIR /app
-CMD ["uvicorn", "main:app", "--reload"]
+
+COPY . /app
+
+RUN pip install --upgrade pip
+
+RUN pip install -r requirements_api.txt
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--reload"]
