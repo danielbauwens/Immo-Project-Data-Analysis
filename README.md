@@ -20,8 +20,8 @@ This was made as the second part of a four part study project, where the aim was
 ![Score](./output/training.png)
 This was made as the third part of the study project. The main goal is to understand how to use our datasets with regression machine learning models to predict accurate target values(whatever that may be) based on the inputted features. All the while making sure not to overfit the model to the data at hand.
 
-### 4️⃣ Data Prediction (Part Four/Conclusion) 
-To be completed.
+### 4️⃣ Data Prediction Through FastAPI (Part Four/Conclusion) 
+This was made as the fourth and last part of our data project. The goal for this part was to harness the power of FastAPI and our previously made model to be able to output predictions based on the  end-users inputted data points. 
 
 ## Installation, Requirements and Usage 🛄
 
@@ -29,19 +29,22 @@ To be completed.
 
 *The two notebooks include the initial graphing results from part one, and the pipeline used to get the scores from LinearRegression, XGBoost, DecisionTree and RandomForest models. The SRC folder's 'main.py' displays all of the above regressors' scores when run.*
 
-For required packages you can use 'pip install -m requirements.txt' in your terminal to get all the required packages.
 
-Run the 'main.py' file with the correctly processed dataset (variable names that match those included in the original 'merged_data.csv' file). Put your dataset in the '/data' directory and link to it with the correct name in the 'dataframe' variable.
+The API section requires only the **'requirements_api.txt'**, if you want to test the older programs which are still in the old source folder, you can download the normal requirements.txt file to get the additional packages for that.
 
 ![Dataframe](./output/dataframe.png)
 
-To run the file, navigate to the /SRC directory in your terminal and type 'python3 main.py' to start and run the program.
 
 ## Timeline 🕙
 
-**Part One(*Data Analysis*)** was completed over the course of 5 (work)days, from the 5th of Juli to the 11th of Juli.
+*For the initial part 1's timeline, see the **related** section.*
 
-**Part Two(*Data Modelling*)** was completed over the course of 4 days, from the 17th of Juli to the 20th of Juli.
+**Part Two(*Data Analysis*)** was completed over the course of 5 (work)days, from the 5th of Juli to the 11th of Juli.
+
+**Part Three(*Data Modelling*)** was completed over the course of 4 days, from the 17th of Juli to the 20th of Juli.
+
+**Part Four(*Data Prediction Through the API*)** was completed over 3 days, from the 26th of Juli, to the 28th of Juli.
+
 
 ## Future Improvements/Additions 🔜
 

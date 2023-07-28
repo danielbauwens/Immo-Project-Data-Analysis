@@ -1,8 +1,7 @@
-FROM python:3.9
+FROM python:3.9-slim
 
 RUN mkdir /app
 RUN mkdir /app/code
-COPY app/ /app/code/
+COPY src/ /app/code/
 WORKDIR /app
-RUN pip install --no-cache-dir -r code/requirements.txt
-CMD ["python3", "code/main.py"]
+CMD ["uvicorn", "main:app", "--reload"]

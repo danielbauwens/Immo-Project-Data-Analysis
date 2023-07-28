@@ -1,5 +1,5 @@
-from preprocessing import cleanup
-from predict import model_linear
+from src.preprocessing import cleanup
+from src.predict import model_linear
 import pandas as pd
 import numpy as np
 from fastapi import FastAPI, Body
@@ -10,7 +10,7 @@ app = FastAPI()
 @app.post("/predict/")
 def prediction(predict: dict = Body()):
     # Both the dataset and prediction values are pre-processed together (if necessary).
-    df = pd.read_csv('../data/merged_data.csv')
+    df = pd.read_csv('/data/merged_data.csv')
     df = cleanup(df, predict)
     dfpredict = df.tail(1)
     dfpredict = dfpredict.drop('price', axis=1)
